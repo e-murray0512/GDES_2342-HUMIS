@@ -124,6 +124,13 @@ body {
                             margin-bottom: 5px;
                         }
 
+                        svg {
+                            width: 30px;
+                            height: 30px;
+                            color: blue;
+                            /* had to set view box in html code to make scalable*/
+                        }
+
                     }
 
                     main {
