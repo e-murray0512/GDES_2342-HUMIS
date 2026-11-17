@@ -115,8 +115,11 @@ body {
                         }
 
                         &.top-nav {
+                            display: flex;
+                            justify-content: flex-end;
                             text-transform: uppercase;
                             margin-top: 5px;
+                            align-items: center;
                         }
 
                         &.bottom-nav {
@@ -125,16 +128,16 @@ body {
                         }
 
                         svg {
-                            width: 30px;
-                            height: 30px;
-                            color: blue;
+                            width: 15px;
+                            height: 15px;
+                            color: var(--burgundy);
                             /* had to set view box in html code to make scalable*/
                         }
 
                     }
 
                     main {
-                        padding-left: 40px;
+                        padding-left: 20px;
                         margin-bottom: 70px;
                         min-height: 600px;
 

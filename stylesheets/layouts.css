@@ -6,7 +6,7 @@ section.two-column-layout{
     aside{
 
         &.left-column{
-            width: 30%;
+            width: 35%;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -17,6 +17,10 @@ section.two-column-layout{
             }
 
             div.top {
+                h3 {
+                    margin-right: 15px;
+                    margin-top: unset;
+                }
                 a {
                     display: block;
                     font-size: 0.6rem;
@@ -76,11 +80,21 @@ section.two-column-layout{
             width: 70%;
             padding-left:15px;
 
+            h4 {
+                margin-top: unset;
+                margin-bottom: unset;
+            }
+
             h6 {
                 margin-bottom: 1.2rem;
 
                 &.no-margin{
                     margin-bottom: 0;
+                }
+            }
+            p{
+                strong{
+                    text-transform: unset;
                 }
             }
 
