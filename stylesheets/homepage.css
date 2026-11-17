@@ -54,6 +54,12 @@ body {
 
                 &.top-nav {
                     text-transform: uppercase;
+                    vertical-align: middle;
+                    svg {
+                        width: 15px;
+                        height: 15px;
+                        color: var(--burgundy);
+                    }
                 }
 
                 &.bottom-nav {
