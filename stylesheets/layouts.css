@@ -96,6 +96,14 @@ section.two-column-layout{
                 strong{
                     text-transform: unset;
                 }
+
+                &.course-info{
+                    display: flex;
+                    flex-direction: column;
+                    strong.big{
+                        font-size: 120%;
+                    }
+                }
             }
 
             div.right-top{
