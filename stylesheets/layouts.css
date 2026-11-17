@@ -173,6 +173,22 @@ section.two-column-layout{
                 }
             }
 
+            div.calendar-goto{
+                display: flex;
+                align-items: center;
+                img {
+                    width: 30px;
+                    padding-right: 5px;
+                }
+                a{
+                    text-decoration: none;
+                    color: var(--burgundy);
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+
 
         }
     }
