@@ -80,6 +80,11 @@ section.two-column-layout{
             width: 70%;
             padding-left:15px;
 
+            >img{
+                width: 100%;
+                border-radius: 20px;
+            }
+
             h4 {
                 margin-top: unset;
                 margin-bottom: unset;
