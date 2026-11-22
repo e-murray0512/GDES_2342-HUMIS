@@ -189,6 +189,15 @@ section.two-column-layout{
                 }
             }
 
+            div.news-block{
+                p{
+                    margin-bottom:unset;
+                    &.learn-more{
+                        margin-top:unset;
+                    }
+                }
+            }
+
 
         }
     }
